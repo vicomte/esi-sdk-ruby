@@ -20,7 +20,7 @@ jobs:
         uses: ruby/setup-ruby@v1
 
       - name: Ruby gem cache
-        uses: actions/cache@v2
+        uses: actions/cache@v6
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
@@ -48,7 +48,7 @@ jobs:
         uses: ruby/setup-ruby@v1
 
       - name: Ruby gem cache
-        uses: actions/cache@v2
+        uses: actions/cache@v6
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
@@ -87,7 +87,7 @@ jobs:
         uses: ruby/setup-ruby@v1
 
       - name: Ruby gem cache
-        uses: actions/cache@v2
+        uses: actions/cache@v6
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
@@ -115,7 +115,7 @@ jobs:
         uses: ruby/setup-ruby@v1
 
       - name: Ruby gem cache
-        uses: actions/cache@v2
+        uses: actions/cache@v6
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
@@ -151,7 +151,7 @@ jobs:
         uses: ruby/setup-ruby@v1
 
       - name: Ruby gem cache
-        uses: actions/cache@v2
+        uses: actions/cache@v6
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
